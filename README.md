@@ -1,2 +1,2 @@
 # denver-properties
-Scraping Denver's Property Taxation and Assessment System
+Using the Denver Property Taxation and Assessment System, I wanted to see when certain areas in Central Park were developed to see how the neighborhood has changed over time. I set up a pipeline that scrapes the website for each parcel and stores the data in a PostgreSQL database. Then using that data, I visualized the individual plots by the year they were built.

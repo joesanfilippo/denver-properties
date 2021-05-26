@@ -1,0 +1,24 @@
+BEGIN;
+
+CREATE TABLE property_data (
+    PARCEL_STR         VARCHAR(50)     PRIMARY KEY
+    ,ADDRESS            VARCHAR(250)
+    ,OWNER_NAME         VARCHAR(250)
+    ,OWNER_ADDRESS_1    VARCHAR(250)
+    ,OWNER_ADDRESS_2    VARCHAR(250)
+    ,PROPERTY_DESC      TEXT
+    ,PROPERTY_TYPE      VARCHAR(250)
+    ,TAX_DISTRICT       VARCHAR(50)
+    ,STYLE              VARCHAR(50)
+    ,SQFT               INT
+    ,BEDROOMS           INT
+    ,BATHS_FULL_HALF    VARCHAR(50)
+    ,YEAR_BUILT         INT 
+    ,BASEMENT_FINISH    VARCHAR(50)
+    ,LOT_SIZE           VARCHAR(50)
+    ,ZONING             VARCHAR(50)
+    ,MILL_LEVY          DOUBLE PRECISION
+    ,DOC_TYPE           VARCHAR(10)
+);
+
+COMMIT;
